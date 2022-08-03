@@ -14,6 +14,7 @@ p,
 div {
   margin: 0;
   padding: 0;
+  /*border: solid;*/
 }
 
 body {
@@ -29,3 +30,66 @@ a {
 }
 
 /* Ketik code Anda di bawah */
+#top-wrapper {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  padding: 180px 0 100px 0;
+  text-align: center;
+}
+
+.top-wrapper-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper-container h1 {
+  font-size: 45px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+
+#top-wrapper P {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: white;
+  border-radius: 4px;
+  padding: 12px 24px;
+  opacity: 0.8;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+#top-wrapper .btn-wrapper p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fa {
+  margin-right: 5px;
+}
