@@ -39,9 +39,11 @@ a {
 }
 
 .top-wrapper-container,
-.header-container {
+.header-container,
+.lesson-wrapper-container {
   width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .top-wrapper-container h1 {
@@ -127,4 +129,41 @@ header {
   padding-right: 25px;
   padding-left: 25px;
   line-height: 65px;
+}
+
+#lesson-wrapper {
+  height: 500px;
+  text-align: center;
+}
+
+#lesson-wrapper .lesson-wrapper-container h2 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.txt-content {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #b3aeb5;
+  /*border: solid;*/
+  width: 80%;
+  display: inline-block;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  width: 100%;
+  top: 90px;
+  color: white;
 }
