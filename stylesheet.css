@@ -40,7 +40,8 @@ a {
 
 .top-wrapper-container,
 .header-container,
-.lesson-wrapper-container {
+.lesson-wrapper-container,
+.message-wrapper-container {
   width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
@@ -168,4 +169,28 @@ header {
   width: 100%;
   top: 90px;
   color: white;
+}
+
+#message-wrapper {
+  color: #5f5d60;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+#message-wrapper h2 {
+  font-weight: normal;
+}
+
+.submit {
+  background-color: #5dca88;
+  margin-top: 30px;
+  padding: 15px 40px;
+  box-shadow: 0 7px #1a7940;
+}
+
+.submit:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
 }
